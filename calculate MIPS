@@ -1,0 +1,7 @@
+MIPS=(Instruction count)/Execution time *10^6
+Execution time =(CPU clock cycle)/clock rate
+CPU clock cycle= CPI * c
+total CPU cycle = 每个insuction count * cycle per inscrtion 相加
+effective CPi=(total CPU cycle)/Total Insctrucion
+  c (Clock Cycle Time)：每个时钟周期所需的时间，通常表示为秒（或纳秒）。c 是时钟周期的长度，它与时钟频率（Clock Frequency，f）成反比关系
+1 纳秒 科学计数法1*10^-9
